@@ -1,5 +1,5 @@
 import BaseStore from "./index";
-import {beforeEach, describe, expect, it} from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 
 describe("Base", () => {
     let base: BaseStore
