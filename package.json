@@ -13,12 +13,18 @@
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
-  "keywords": [],
+  "keywords": [
+      "typescript",
+      "pinia",
+      "vue"
+  ],
   "author": "René Schober - CodingRuo Development (https://codingruo.dev/)",
   "license": "MIT",
     "peerDependencies": {
         "pinia": "^2"
     },
+    "homepage": "https://github.com/CodingRuo/StoreClass-Pinia#readme",
+    "bugs": "https://github.com/CodingRuo/StoreClass-Pinia/issues",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "@types/node": "^20.3.1",
