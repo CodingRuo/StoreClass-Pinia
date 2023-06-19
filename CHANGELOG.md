@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.0
+
+### Minor Changes
+
+-   0ebfa10: Setting Class ready for testing
+
 ## 0.0.3
 
 ### Patch Changes
