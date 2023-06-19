@@ -16,14 +16,15 @@
   "keywords": [],
   "author": "René Schober - CodingRuo Development (https://codingruo.dev/)",
   "license": "MIT",
+    "peerDependencies": {
+        "pinia": "^2.1.4"
+    },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "@types/node": "^20.3.1",
+    "pinia": "^2.1.4",
     "tsup": "^7.0.0",
     "typescript": "^5.1.3",
     "vitest": "^0.32.2"
-  },
-  "dependencies": {
-    "prettier": "^2.8.8"
   }
 }
