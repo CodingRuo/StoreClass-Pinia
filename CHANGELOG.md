@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 1.0.0
+
+### Major Changes
+
+-   eefd827: First Major Release.
+
 ## 0.1.6
 
 ### Patch Changes
