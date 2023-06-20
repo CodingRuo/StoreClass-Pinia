@@ -12,7 +12,7 @@ export class BaseStore<TState extends States<TState>, TGetters extends Getters<T
         this.$storeID       = storeId
         this.$baseState     = {} as TState
         this.$baseGetter    = {} as TGetters
-        this.$baseAction    = {} as TActions
+        this.$baseAction    = { ...this.overrideAction() } as TActions
     }
 
     overrideAction(): TActions{
