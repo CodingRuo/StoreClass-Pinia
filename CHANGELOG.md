@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.4
+
+### Patch Changes
+
+-   ebb298d: Fixing Export from Class
+
 ## 0.1.3
 
 ### Patch Changes
