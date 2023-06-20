@@ -1,6 +1,6 @@
 {
   "name": "@codingruo/pinia-store-base-class",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,17 +14,17 @@
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "keywords": [
-      "typescript",
-      "pinia",
-      "vue"
+    "typescript",
+    "pinia",
+    "vue"
   ],
   "author": "René Schober - CodingRuo Development (https://codingruo.dev/)",
   "license": "MIT",
-    "peerDependencies": {
-        "pinia": "^2"
-    },
-    "homepage": "https://github.com/CodingRuo/StoreClass-Pinia#readme",
-    "bugs": "https://github.com/CodingRuo/StoreClass-Pinia/issues",
+  "peerDependencies": {
+    "pinia": "^2"
+  },
+  "homepage": "https://github.com/CodingRuo/StoreClass-Pinia#readme",
+  "bugs": "https://github.com/CodingRuo/StoreClass-Pinia/issues",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "@types/node": "^20.3.1",

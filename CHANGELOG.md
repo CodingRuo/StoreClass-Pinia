@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.1
+
+### Patch Changes
+
+-   44696a9: Adding new Function die extend the base actions and override the function for custom code
+
 ## 0.1.0
 
 ### Minor Changes
