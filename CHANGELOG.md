@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.3
+
+### Patch Changes
+
+-   6220c28: Adding some Generic Types for the Class
+
 ## 0.1.2
 
 ### Patch Changes
