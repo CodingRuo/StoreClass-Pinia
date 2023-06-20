@@ -78,6 +78,7 @@ export class BaseStore<TState extends States<TState>, TGetters extends Getters<T
         return defineStore({
             id: this.$storeID,
             state: () => state,
+            // @ts-ignore
             getters: getter,
             actions: action
         })();
