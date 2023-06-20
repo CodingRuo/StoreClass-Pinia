@@ -19,9 +19,9 @@ export type States<T>     = {
     [K in keyof T]: T[K]
 } & {}
 
-export type Getters<T, S>     = {
-    [K in keyof T]: (state: S) => T[K]
-} & {}
+export type Getters<T, K extends keyof T = keyof T>     = {
+    [Key in K]: (state: T) => T[Key]
+}
 
 export type Actions<T>     = {
     [K in keyof T]: (...args: any[]) => void
