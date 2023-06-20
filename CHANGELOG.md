@@ -1,5 +1,12 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.4
+
+### Patch Changes
+
+-   ebb298d: Fixing Export from Class
+-   c2955c2: Fixing TestScript and Add Action to baseActions
+
 ## 0.1.3
 
 ### Patch Changes
