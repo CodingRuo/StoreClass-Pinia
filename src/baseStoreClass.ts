@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { Actions, Base, Getters, States, StoreType } from "./types";
 
-export default class BaseStore<TState extends States<TState>, TGetters extends Getters<TGetters>, TActions extends Actions<TActions>> implements Base {
+export class BaseStore<TState extends States<TState>, TGetters extends Getters<TGetters>, TActions extends Actions<TActions>> implements Base {
 
     $storeID:       string
     $baseState:     TState
