@@ -4,7 +4,6 @@ export type Prettify<T> = {
 
 export type StoreType = "state" | "getter" | "action"
 
-
 export type Base = {
     $storeID:       string
     $baseState:     {}
@@ -20,8 +19,8 @@ export type States<T>     = {
     [K in keyof T]: T[K]
 } & {}
 
-export type Getters<T>     = {
-    [K in keyof T]: () => T[K]
+export type Getters<T, S>     = {
+    [K in keyof T]: (state: S) => T[K]
 } & {}
 
 export type Actions<T>     = {
