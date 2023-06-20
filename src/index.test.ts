@@ -2,7 +2,7 @@ import BaseStore from "./index";
 import { beforeEach, describe, expect, it } from "vitest";
 
 describe("Base", () => {
-    let base: BaseStore
+    let base: BaseStore<{},{},{}>
 
     beforeEach(() => {
         base = new BaseStore()
