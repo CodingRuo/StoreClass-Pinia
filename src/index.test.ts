@@ -1,4 +1,4 @@
-import BaseStore from "./index";
+import BaseStore from "./baseStoreClass";
 import { beforeEach, describe, expect, it } from "vitest";
 
 describe("Base", () => {
