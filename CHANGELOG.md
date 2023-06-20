@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.2
+
+### Patch Changes
+
+-   0173905: config new Test
+
 ## 0.1.1
 
 ### Patch Changes
