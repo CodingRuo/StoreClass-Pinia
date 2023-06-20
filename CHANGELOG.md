@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.6
+
+### Patch Changes
+
+-   c0a8b54: Fixing Linter Error
+
 ## 0.1.5
 
 ### Patch Changes
