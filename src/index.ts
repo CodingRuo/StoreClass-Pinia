@@ -2,18 +2,30 @@ import { defineStore } from "pinia";
 
 type StoreTypes = 'action' | 'getter' | 'state'
 
-export default class BaseStore {
+interface Base {
+    
+}
 
-    $storeID: string
-    $baseState:     {}
-    $baseGetter:    {}
-    $baseAction:    {}
+type States     = {}
+type Getters    = {}
+type Actions    = {}
+
+export default class BaseStore<TState extends States, TGetters extends Getters, TActions extends Actions> implements Base {
+
+    $storeID:       string
+    $baseState:     TState
+    $baseGetter:    TGetters
+    $baseAction:    TActions
 
     constructor(storeId: string = "STORE-NAME") {
         this.$storeID       = storeId
-        this.$baseState     = {}
-        this.$baseGetter    = {}
-        this.$baseAction    = {}
+        this.$baseState     = {} as TState
+        this.$baseGetter    = {} as TGetters
+        this.$baseAction    = {} as TActions
+    }
+
+    overrideAction(): TActions{
+        return {} as TActions
     }
 
     baseProperty<Type>(type: StoreTypes, value: Type ) {
@@ -67,9 +79,9 @@ export default class BaseStore {
 
     generateStore(){
 
-        const state     = { ...this.$baseState }
-        const getter    = { ...this.$baseGetter }
-        const action    = { ...this.$baseAction }
+        const state:    TState      = { ...this.$baseState }
+        const getter:   TGetters    = { ...this.$baseGetter }
+        const action:   TActions    = { ...this.$baseAction }
 
         return defineStore({
             id: this.$storeID,
