@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 1.0.1
+
+### Patch Changes
+
+-   3c288c1: Fixing Type Error for getter
+
 ## 1.0.0
 
 ### Major Changes
