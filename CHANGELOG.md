@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 0.1.5
+
+### Patch Changes
+
+-   8d4765f: Fixing generic Types
+
 ## 0.1.4
 
 ### Patch Changes
