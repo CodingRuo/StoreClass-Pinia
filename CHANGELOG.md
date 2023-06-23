@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 1.0.3
+
+### Patch Changes
+
+-   fc3367f: Change StoreType to string
+
 ## 1.0.2
 
 ### Patch Changes
