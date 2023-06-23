@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 1.1.1
+
+### Patch Changes
+
+-   b8f72b5: Adding new types
+
 ## 1.1.0
 
 ### Minor Changes
