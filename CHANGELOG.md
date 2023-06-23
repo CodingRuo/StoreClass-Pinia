@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 1.1.0
+
+### Minor Changes
+
+-   c51af5f: Adding new States to storetypes
+
 ## 1.0.3
 
 ### Patch Changes
