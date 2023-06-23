@@ -1,5 +1,11 @@
 # @codingruo/pinia-store-base-class
 
+## 1.0.2
+
+### Patch Changes
+
+-   d0906dc: Convert checkType function to Proteced.
+
 ## 1.0.1
 
 ### Patch Changes
