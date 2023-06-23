@@ -2,7 +2,7 @@ export type Prettify<T> = {
     [K in keyof T]: T[K];
 } & {};
 
-export type StoreType = "state" | "getter" | "action"
+export type StoreType = string
 
 export type Base = {
     $storeID:       string
