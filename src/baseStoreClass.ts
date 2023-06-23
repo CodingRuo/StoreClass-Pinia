@@ -63,7 +63,7 @@ export class BaseStore<TState extends States<TState>, TGetters extends Getters<T
         }
     }
 
-    private checkType(type: StoreType): void {
+    protected checkType(type: StoreType): void {
         if (!['state', 'getter', 'action'].includes(type)) {
             throw new Error(`Invalid type ${type}`);
         }
