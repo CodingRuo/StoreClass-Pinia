@@ -1,5 +1,16 @@
 # @codingruo/pinia-store-base-class
 
+## 1.2.0
+
+### Minor Changes
+
+-   76703ae: Change Tyoes
+
+### Patch Changes
+
+-   5543072: Remove Types from Store
+-   f65f80d: Test
+
 ## 1.1.1
 
 ### Patch Changes
