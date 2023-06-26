@@ -25,11 +25,6 @@ export class BaseStore<TState extends States<TState>, TGetters extends Getters<T
         this.checkType(type)
 
         const baseProperties: { [key in StoreType]: any } = {
-            fahrtplanung: undefined,
-            gridaction: undefined,
-            gridgetter: undefined,
-            gridstate: undefined,
-            socketaction: undefined,
             state:  this.$baseState,
             getter: this.$baseGetter,
             action: this.$baseAction
@@ -46,11 +41,6 @@ export class BaseStore<TState extends States<TState>, TGetters extends Getters<T
         this.checkType(type)
 
         const storeProperties: { [key in StoreType]: any } = {
-            fahrtplanung: undefined,
-            gridaction: undefined,
-            gridgetter: undefined,
-            gridstate: undefined,
-            socketaction: undefined,
             state:  this.$baseState,
             getter: this.$baseGetter,
             action: this.$baseAction
